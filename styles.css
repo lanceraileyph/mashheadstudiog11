@@ -1,0 +1,162 @@
+body{
+  background: linear-gradient(to top right, #000000, #000000d8);
+}
+h1 {
+      color: white;
+  text-align: center;
+  font-family: verdana, 'Times New Roman';
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2 {
+    color:white;
+    text-shadow: 0px 0px 10px white;
+}
+header {
+  background: linear-gradient(to top left, #690202, #ff9a02);
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+footer {
+  
+  background: rgb(195,34,34);
+  background: linear-gradient(to top left, #690202, #ff9a02);
+  margin-top: 300px;
+   height: 100px;
+   
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.headers {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headers li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+
+  .headers li a:hover {
+    color: #00ffea;
+  }
+
+
+a{
+    color:white;
+    text-align: center;
+}
+p {
+     font-family: verdana , 'Times New Roman';
+     font-size: 20px;
+     color: white;
+     text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(85, 85, 168);
+    }
+    .highlight{
+        color:yellow;
+        font-weight: bold;
+    }  
+
+hr {
+    border-top: 1px  white;
+}
+h3{
+    font-family: verdana , 'Times New Roman';
+     font-size: 20px;
+     color: rgb(255, 240, 37);
+     text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(85, 85, 168);
+}
+.section {
+    text-align: center;
+    padding: 40px 0 20px;
+    font-size: 32px;
+    color:white;
+    text-shadow: 0px 0px 10px white;
+  }
+
+  .section2 {
+    text-align: center;
+    padding: 40px 0 20px;
+    font-size: 32px;
+    color:white;
+    text-shadow: 0px 0px 10px white;
+  }
+
+  .gamescontainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .gamecard {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+  }
+
+  .gamecard:hover {
+    transform: scale(1.05);
+  }
+
+  .gamecard img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .gameinfo {
+    padding: 15px;
+  }
+
+  .gametitle {
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-align: center;
+  }
+
+  .gamedesc {
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    text-shadow: 0px 0px 10px white;
+  }
+
+.Intro {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-image: url("bg.jpg");
+    background-size: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 50px rgb(1, 192, 250);
+    outline: 10px rgb(0, 255, 255);
+    outline-style: dashed;
+}
+
+.btn {
+
+  box-shadow:  0 0 30px #f7941d;
+  transition: background 0.3s, transform 0.3s;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #ffaa1d;
+  box-shadow: 0 0 20px #ffaa1d, 0 0 40px #ffaa1d;
+  transform: scale(1.05);
+}
+

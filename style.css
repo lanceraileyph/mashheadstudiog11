@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+  }
+  
+  body {
+    margin: 0;
+    background: linear-gradient(to top right, #000000, #000000d8);
+  }
+  
+  .contact-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 999;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px orange;
+    box-shadow: 0 0 15px #f7941d, 0 0 30px #f7941d;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+
+.contact-btn:hover {
+    background-color: #ffaa1d;
+    box-shadow: 0 0 20px #ffaa1d, 0 0 40px #ffaa1d;
+    transform: scale(1.05);
+}
+
+header {
+    background: linear-gradient(to top left, #690202, #ff9a02);
+      padding: 20px 0;
+      border-radius: 5px;
+  }
+  
+  footer {
+    
+    background: linear-gradient(to top left, #690202, #ff9a02);
+    margin-top: 300px;
+     height: 100px;
+    padding: 20px 0;
+    border-radius: 5px;
+  }
+  
+
+.headers {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headers li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+
+  .headers li a:hover {
+    color: #00ffea;
+  }
+
+  
+  .contacttainerr {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .formsection {
+    flex: 1;
+    background: linear-gradient(to top right, #000000, #000000d8);
+    padding: 60px;
+  }
+  
+  .formsection h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .formsection p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  select,
+  textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .send-btn {
+    background-color: #f7941d;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .logom {
+    flex: 1;
+    background: linear-gradient(to top right, #000000, #00000010);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 40px 20px;
+    width: 999px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 4000px;
+    max-width: 90%;
+  }
+  
+  .socials {
+    margin-top: 20px;
+  }
+  
+  .socials a img {
+    width: 200px;
+    margin: 0 10px;
+  }
+  
+  .brand {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #f7941d;
+    font-size: 20px;
+  }
+  
+
+  .btn {
+    box-shadow:  0 0 30px #f7941d;
+    transition: background 0.3s, transform 0.3s;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #ffaa1d;
+    box-shadow: 0 0 20px #ffaa1d, 0 0 40px #ffaa1d;
+    transform: scale(1.05);
+  }
+
+  footer {
+  
+    background: rgb(195,34,34);
+    background: linear-gradient(to top left, #690202, #ff9a02);
+    margin-top: 300px;
+     height: 100px;
+     
+    padding: 20px 0;
+    border-radius: 5px;
+  }
